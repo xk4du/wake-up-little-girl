@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="David Poltergatt">
+  <meta name="description" content="Joguinho pra minha gata.">
+  <title>Wake up, little girl!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <section id="menu" class="screen active menu-screen" aria-label="Tela inicial">
+      <div id="menuStage" class="menu-stage" aria-label="Wake up, little girl!">
+        <button id="btnStart" class="start-hotspot" type="button" aria-label="Jogar"></button>
+      </div>
+    </section>
+
+    <section id="game" class="screen game-screen">
+      <div id="sceneFade" class="scene-fade hidden"><div id="sceneFadeText" class="scene-fade-text hidden"></div></div>
+      <div class="topbar">
+        <div class="logo-mini">Wake up, little girl!</div>
+        <div id="timer" class="timer hidden">03:00</div>
+      </div>
+      <div id="hint" class="hint">Onde está seu celular, Agda?</div>
+      <div id="world" class="world room-world" aria-label="área do jogo">
+        <img id="player" class="player" src="assets/agda_down.png" alt="Agda" />
+        <div id="npcDavid" class="npc hidden" aria-label="David"><img id="npcDavidImg" src="assets/david_down.png" alt="David" /></div>
+        <div id="npcBubble" class="npc-bubble hidden"></div>
+        <button id="phoneItem" class="collectible phone" aria-label="celular"></button>
+        <button id="letterBush" class="collectible letter-bush hidden" aria-label="arbusto com carta"></button>
+        <button id="bookGlow" class="collectible book-glow hidden" aria-label="manuscrito antigo brilhando"></button>
+        <div id="pressTip" class="press-tip hidden">Pressione <b>E</b></div>
+      </div>
+
+      <div id="dialog" class="dialog hidden">
+        <div id="dialogName" class="dialog-name">Agda</div>
+        <p id="dialogText"></p>
+        <div id="dialogOptions" class="dialog-options hidden"></div>
+        <button id="nextDialog" class="dialog-next">Continuar</button>
+      </div>
+
+      <div id="phoneChat" class="phone-chat hidden">
+        <div class="phone-head">
+          <span>+55 19 9999 9999</span>
+          <button id="closeChat" title="fechar">×</button>
+        </div>
+        <div id="messages" class="messages"></div>
+        <div id="options" class="options"></div>
+      </div>
+
+      <div id="modal" class="modal hidden">
+        <div class="modal-card letter-modal-card">
+          <div class="letter-animation-wrap">
+            <img id="letterModalImg" src="assets/letter_open.png" alt="Carta" class="letter-modal-img" />
+          </div>
+          <h2 id="modalTitle">Você encontrou a carta!</h2>
+          <p id="modalText" class="letter-text">Agda sente que aquela mensagem é só o começo de algo muito maior...</p>
+          <div id="modalExtraActions" class="modal-actions hidden"></div>
+          <button id="modalAction" class="main-btn small">Continuar</button>
+        </div>
+      </div>
+
+      <div id="memoryCall" class="memory-call hidden" aria-hidden="true">
+        <span class="memory-heart h1">❤</span>
+        <span class="memory-heart h2">❤</span>
+        <span class="memory-heart h3">❤</span>
+        <span class="memory-heart h4">❤</span>
+        <div class="memory-call-card">Você deve voltar para aquele momento</div>
+      </div>
+
+      <div id="achievement" class="achievement hidden">
+        <div class="achievement-title">Conquista desbloqueada</div>
+        <div class="achievement-text">Você encontrou seu amado perdido.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
