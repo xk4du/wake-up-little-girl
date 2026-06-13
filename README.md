@@ -1,21 +1,5 @@
 # 🌙 Wake up, Little Girl!
 
-**Wake up, Little Girl!** é um jogo narrativo 2D feito em **HTML, CSS e JavaScript**, com visual inspirado em **pixel art**, atmosfera romântica, misteriosa, psicológica e onírica.
-
-Este projeto foi criado como uma **homenagem especial à minha namorada**.
-
-Mais do que apenas um jogo, é uma forma de transformar sentimentos, memórias, carinho e momentos importantes em uma experiência interativa.
-
-A história acompanha **Agda**, uma garota que desperta em um mundo estranho, aparentemente doce e acolhedor, mas cheio de mistérios escondidos. Aos poucos, ela percebe que está presa em um universo formado por sonhos, pensamentos, memórias fragmentadas e sentimentos profundos.
-
-Durante sua jornada, Agda precisa explorar ambientes simbólicos, encontrar pistas, conversar com personagens importantes e desbloquear lembranças para entender quem ela é, onde está e como poderá voltar para o mundo real.
-
-O jogo mistura fantasia, romance, suspense psicológico e momentos de reflexão, criando uma experiência simples em mecânica, mas carregada de significado emocional.
-
----
-
-## 💖 Uma homenagem em forma de jogo
-
 **Wake up, Little Girl!** nasceu como um projeto pessoal, feito com carinho e dedicação para homenagear uma pessoa especial.
 
 A personagem **Agda**, os cenários, os diálogos e os momentos da história foram construídos com a intenção de representar sentimentos reais através de uma narrativa fantástica. A ideia é transformar lembranças, afeto, cuidado e conexão em algo jogável, como se cada fase fosse uma parte de uma memória ou de um sentimento.
